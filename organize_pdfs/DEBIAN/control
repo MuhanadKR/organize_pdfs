@@ -1,0 +1,10 @@
+Package: organize-pdfs
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-pip
+Maintainer: Muhanad Rashwan <20220001107@students.cud.ac.ae>, Tarek Skaf <20220001933@students.cud.ac.ae>, Omar Alrass <20220001549@students.cud.ac.ae>
+Description: A tool to organize PDFs and generate reports.
+ This script categorizes PDF files into predefined directories
+ and generates a correctness report.
