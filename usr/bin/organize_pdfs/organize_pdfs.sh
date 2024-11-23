@@ -3,7 +3,7 @@
 set -x  # Enable debugging
 
 # Prompt the user to enter the root folder path
-echo "Enter the root folder path1): "
+echo "Enter the root folder path: "
 read ROOT_FOLDER
 
 # Convert to Unix-style path if needed (for WSL compatibility)
