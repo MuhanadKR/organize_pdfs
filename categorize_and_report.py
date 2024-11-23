@@ -55,7 +55,7 @@ def create_directories():
             os.makedirs(os.path.join(root_folder, category, subcategory), exist_ok=True)
     os.makedirs(os.path.join(root_folder, "Others"), exist_ok=True)
 
-# Helper function: Check for exact word match in filename
+# Check for exact word match in filename
 def is_word_in_file(word, file):
     # Match the word using word boundaries and also allow underscores and dashes
     pattern = r'\b' + re.escape(word.lower()) + r'(\b|_|-)'
