@@ -21,10 +21,6 @@ categories = {
     "Others": []
 }
 
-# Normalize and validate root folder path
-import os
-import sys
-
 # Prompt the user to enter the root folder path
 root_folder = input("Enter the root folder path given to you, it is written after " "+" "python3 categorize_and_report.py"": ")
 
